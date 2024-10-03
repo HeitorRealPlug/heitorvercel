@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>{{ Titulo }}</title>
+
+  <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link href="./static/css/style.css" rel="stylesheet" />
+  <link href="./static/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-11 offset-lg-1">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="/">
+                <img src="./static/images/fotocam.png" alt="">
+                <span>
+                  {{ Titulo }}
+                </span>
+              </a>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/cadastro"> Cadastro de Cachorros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/galeria"> Galeria </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class=" slider_section position-relative">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1 ">
+                  <div class="detail_box">
+                    <h1>
+                      API <br>
+                      Imagens
+                    </h1>
+                    <p>
+                      Que tal conhecer novos cachorros?
+                    </p>
+                    <div class="btn-box">
+                      <a href="/cadastro" class="btn-1">
+                        Cadastro
+                      </a>
+                      <a href="/galeria" class="btn-2">
+                        Galeria
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 px-0">
+                  <div class="img-box">
+                    <img src="./static/images/dogin.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Cadastrar Imagens
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="./static/images/dodog.png" alt="">
+          <div class="about_img-bg">
+
+          </div>
+        </div>
+        <div class="detail-box">
+          <p>
+            Cachorro, o melhor amigo do homem
+          </p>
+          <div>
+            <a href="/cadastro">
+              Acessar o Cadastro
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Galeria
+        </h2>
+        <p>
+         Fotinhas
+        </p>
+      </div>
+      <div class="portfolio_container layout_padding2">
+        <div class="box-1">
+          <div class="img-box b-1">
+            <img src="./static/images/01.jpg" alt="">
+            <div class="btn-box">
+            </div>
+          </div>
+          <div class="img-box b-2">
+            <img src="./static/images/02.jpeg" alt="">
+            <div class="btn-box">
+            </div>
+          </div>
+        </div>
+        <div class="box-2">
+          <div class="box-2-top">
+            <div class="img-box b-3">
+              <img src="./static/images/03.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+          <div class="box-2-top2">
+            <div class="img-box b-4">
+              <img src="./static/images/04.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+          <div class="box-2-btm">
+            <div class="img-box b-5">
+              <img src="./static/images/05.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+            <div class="img-box b-6">
+              <img src="./static/images/06.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="see_btn">
+        <a href="/galeria">
+          Acessar a Galeria
+        </a>
+      </div>
+    </div>
+
+  </section>
+  <section class="container-fluid footer_section">
+    <div class="container">
+      <p>
+        &copy; 2024 HEITOR PLUG
+      </p>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="jsjquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="jsbootstrap.js"></script>
+</body>
+
+</html>
